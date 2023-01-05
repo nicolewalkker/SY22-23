@@ -63,7 +63,7 @@ Partial Public Class MainWindow
             Return
         End If
         _contentLoaded = true
-        Dim resourceLocater As System.Uri = New System.Uri("/WpfApp1;component/mainwindow.xaml", System.UriKind.Relative)
+        Dim resourceLocater As System.Uri = New System.Uri("/WpfApp1;V1.0.0.0;component/mainwindow.xaml", System.UriKind.Relative)
         
         #ExternalSource("..\..\..\MainWindow.xaml",1)
         System.Windows.Application.LoadComponent(Me, resourceLocater)
